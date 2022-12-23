@@ -4,15 +4,18 @@
 
 
 @media (min-width:630px) {
+    header {
+        border-top: 10px solid var(--primary-color);
+        background-image: -webkit-linear-gradient( 90deg,rgb(215,215,215) 0%,rgb(255,255,255) 71%);
+    }
     .header-container {
         display: flex;
         flex-direction: row;
         align-items: center;
         height: 89px;
-        border-top: 10px solid var(--primary-color);
+        margin: 0 auto;
         padding: 0;
-        background-image: -webkit-linear-gradient( 90deg,rgb(215,215,215) 0%,rgb(255,255,255) 71%);
-        
+        max-width: 1000px ;
     }
     .header-container .menu-container {
         display: flex;
@@ -69,14 +72,15 @@
     .header-container .nav-container .nav-item {
         /* margin: 10px; */
         margin: 0 auto;
-        margin-right: 20px;
-        padding: 0 0 15px;
-        font-size: 1.2rem;
-        font-weight: 600;
+        padding: 0 13px 15px;
+        /* font-size: 1.2rem; */
+        /* font-weight: 600; */
         text-align: center;
         color: #393939;
+        transition: all .1s linear 0.1s;
+        border-bottom: 10px solid transparent;
     }
-
+    
     .menu-container .menu-slider-container {
         display: none;
         
@@ -88,10 +92,63 @@
         display: none;
     }
 
+    /* main containers */
+    .about-us-container {
+        padding: 0 15px;
+    }
     footer .footer-container {
         display: flex;
         align-items: center;
         justify-content: space-between;
+    }
+    .main-text-container{
+        display: flex;
+    }
+    .main-text-container figure {
+        max-width: 397px;
+    }
+    .main-text-container .about-us-text .about-us-contact-container {
+        max-width: 292px;
+        margin: 0;
+        margin-bottom: 1.25rem;
+    }
+
+
+}
+@media (max-width:830px) {
+    .header-container .nav-container .nav-item {
+        font-size: 1.2rem;
+        margin: 0 auto;
+        
+        
+    }
+    .nav-container .nav-item:hover {
+        /* padding: 0 10px 5px; */
+        border-bottom: 10px solid var(--primary-color);
+        color: var(--primary-color);
+    }
+    .header-container .nav-container .nav-item {
+        /* margin: 10px; */
+        /* margin: 0 auto;
+        padding: 0 15px 15px; */
+        font-size: 1.2rem;
+        font-weight: 600;
+        /* text-align: center;
+        color: #393939;
+        transition: all .1s linear 0.1s;
+        border-bottom: 10px solid transparent; */
+    } 
+}
+@media (min-width:831px) {
+    .nav-container .nav-item:hover {
+        padding: 0 15px 5px;
+        border-bottom: 10px solid var(--primary-color);
+        color: var(--primary-color);
+    }
+
+    .nav-container .nav-item {
+        font-size: 1.6rem;
+        font-weight: 600;
     }
 
 
