@@ -1,0 +1,98 @@
+@import './base.css';
+@import './main.css';
+
+
+
+@media (min-width:630px) {
+    .header-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 89px;
+        border-top: 10px solid var(--primary-color);
+        padding: 0;
+        background-image: -webkit-linear-gradient( 90deg,rgb(215,215,215) 0%,rgb(255,255,255) 71%);
+        
+    }
+    .header-container .menu-container {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        /* padding: 1.1rem 0; */
+        width: 30%;
+    }
+    .header-container .menu-container figure {
+        width: 100%;
+        max-width: 245px;
+        height: 100%;
+    }
+    .menu-container figure img {
+        margin: 0;
+        padding: 0;
+        min-width: 55px;
+    }
+    .header-container .nav-container {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        align-items: center;
+        padding-right: 20px;
+    }
+    .nav-container .phone-contact-desk {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        width: 100%;
+        /* padding: 10px 10px 0; */
+    }
+    .nav-container .phone-contact-desk span {
+        display: block;
+        width: 40px;
+        height: 30px;
+        background-image: url("../assets/icons/mexico.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .nav-container .phone-contact-desk a{
+        color: var(--secondary-color);
+        font-size: 2.4rem;
+        font-weight: var(--font-weight-h2);
+        padding: 0 10px;
+    }
+    .header-container .nav-container nav {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        
+    }
+    .header-container .nav-container .nav-item {
+        /* margin: 10px; */
+        margin: 0 auto;
+        margin-right: 20px;
+        padding: 0 0 15px;
+        font-size: 1.2rem;
+        font-weight: 600;
+        text-align: center;
+        color: #393939;
+    }
+
+    .menu-container .menu-slider-container {
+        display: none;
+        
+    }
+    .main-container-home .main-home-solutions .grid-solutions-container {
+        grid-template-columns: repeat(5, 1fr);
+    }
+    .header-container .header-phone {
+        display: none;
+    }
+
+    footer .footer-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+
+}

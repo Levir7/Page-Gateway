@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14.9527 22.0585">
+<style type="text/css">
+.consumer-products-line-dark{
+fill:#393939;
+}
+.consumer-products-hover{
+display:none;
+}
+.consumer-products-hover02{
+display:inline;
+fill:#C03C3B;
+stroke:#C03C3B;
+stroke-width:0.2921;
+stroke-linecap:round;
+stroke-miterlimit:10;
+}
+.consumer-products-hover03{
+display:inline;
+fill:#FDFEFE;
+stroke:#C03C3B;
+stroke-width:0.2921;
+stroke-linecap:round;
+stroke-miterlimit:10;
+}
+.consumer-products-hover04{
+display:inline;
+fill:none;
+stroke:#C03C3B;
+stroke-width:0.25;
+stroke-linecap:round;
+stroke-miterlimit:10;
+}
+</style>
+<g id="Layer_1">
+<g>
+<path class="consumer-products-line-dark" d="M11.3007,18.4204H3.6391v-7.6616h7.6616V18.4204z M3.8891,18.1704h7.1616v-7.1616H3.8891V18.1704z"></path>
+</g>
+<g>
+<path class="consumer-products-line-dark" d="M1.8158,22.0376c-1.6445,0-1.7935-1.6465-1.7944-1.6631L0.0209,6.9263c0-1.0762,0.5195-1.9888,1.502-2.6392
+c0.6543-0.4336,1.4658-0.6626,2.3467-0.6626h7.7202c1.1797,0,2.1328,0.5781,2.7549,1.6719
+c0.3838,0.6743,0.5869,1.4951,0.5869,2.3735v12.5317c0,1.7715-1.8135,1.8359-1.832,1.8359H1.8158z M3.8695,3.8745
+c-0.8315,0-1.5952,0.2148-2.209,0.6206C0.7387,5.106,0.2709,5.9238,0.2709,6.9263v13.4385
+c0.0044,0.0488,0.1338,1.4229,1.5449,1.4229h11.2808c0.0615-0.002,1.585-0.0605,1.585-1.5859V7.6699
+c0-0.8354-0.1914-1.6133-0.5537-2.2495c-0.584-1.0259-1.4375-1.5459-2.5381-1.5459H3.8695z"></path>
+</g>
+<g>
+<path class="consumer-products-line-dark" d="M11.0195,3.8477c-0.0674,0-0.123-0.0537-0.125-0.1211C10.8896,3.5845,10.746,0.25,7.3539,0.25
+c-3.3496,0-3.4165,3.2407-3.418,3.3784C3.9355,3.6978,3.8681,3.751,3.81,3.7524C3.7411,3.752,3.6855,3.6953,3.686,3.6265
+C3.6864,3.5903,3.7543,0,7.3539,0c3.6362,0,3.7896,3.6816,3.7905,3.7188c0.002,0.0693-0.0518,0.1265-0.1211,0.1289
+C11.0224,3.8477,11.0204,3.8477,11.0195,3.8477z"></path>
+</g>
+</g>
+<g id="Layer_2" class="consumer-products-hover">
+<path class="consumer-products-hover02" d="M0.146,6.9261V20.365c0,0,0.1222,1.5475,1.6697,1.5475s11.2805,0,11.2805,0s1.7104-0.0407,1.7104-1.7104
+V7.6701c0-0.8054-0.1715-1.612-0.5701-2.3119c-0.4581-0.8043-1.2624-1.6086-2.6471-1.6086H3.8695
+c-0.8038,0-1.6075,0.1977-2.2778,0.6414C0.8689,4.8695,0.146,5.6637,0.146,6.9261z"></path>
+<rect x="3.7639" y="10.884" class="consumer-products-hover03" width="7.4117" height="7.4117"></rect>
+<path class="consumer-products-hover04" d="M3.8112,3.6275c0,0,0.0256-3.5023,3.543-3.5023c3.5566,0,3.6652,3.5973,3.6652,3.5973"></path>
+</g>
+</svg>

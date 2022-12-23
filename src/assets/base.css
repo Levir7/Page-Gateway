@@ -1,0 +1,24 @@
+
+/* semantic color variables for this project */
+:root {
+  --primary-color: #bf3b3b;
+    --secondary-color: #444444;
+    --footer-color: #393939;
+    --font-size-h1: 2.8rem; 
+    --line-height-h1: 2.8rem;
+    --font-weight-h1: 800;
+    --font-size-h2: 2.6rem;
+    --line-height-h2: 2.6rem;
+    --font-weight-h2: 700;
+    --font-size-p: 1.7rem;
+    --font-weight-p: 400;
+    --line-height-p: 2.7rem;
+    --nav-a: 1.2rem;
+}
+* {
+  font-size: 62.5%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
