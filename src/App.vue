@@ -25,10 +25,9 @@
           <span class="mexico"></span>
           <a href="tel:52-338-995-0263">338-995-0263</a>
         </div>
-        
         <nav>
           <router-link class="nav-item" to="/about">About Us</router-link>
-          <router-link class="nav-item" to="/metal-stamping">Metal Stamping</router-link>
+          <router-link class="nav-item" to="/Metal-stamping">Metal Stamping</router-link>
           <router-link class="nav-item" to="/tube-forming">Tube Forming</router-link>
           <router-link class="nav-item" to="/machining">Machining</router-link>
           <router-link class="nav-item" to="/plating">Plating</router-link>
@@ -39,9 +38,7 @@
       
     </section>
   </header>
-  <nav>
-    
-  </nav>
+
   <RouterView/>
 
   <footer>
