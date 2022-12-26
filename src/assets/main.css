@@ -278,7 +278,7 @@ footer .footer-container {
   align-items: center;
   background: #333944;
   box-shadow: 0px 1px 9px 0px rgb(0 0 0 / 68%);
-
+  
 }
 .img-header figure {
   min-width: 320px;
@@ -288,8 +288,8 @@ footer .footer-container {
 }
 .img-header figure img {
   width: 100%;
-  height: 100%;
-  max-height: 210px;
+  /* height: 100%; */
+  max-height: 300px;
 }
 @supports(object-fit: cover){
     .img-header figure img{
@@ -300,44 +300,45 @@ footer .footer-container {
 }
 
 /* about view*/
-.about-us-container .nav-page-info {
+.main-container .nav-page-info {
   display: flex;
   padding: 1.6rem 0;
   margin-top: 5px;
 }
-.about-us-container .nav-page-info p {
+.main-container .nav-page-info p {
   font-size: 1.6rem;
   margin: 0;
 }
-.about-us-container .nav-page-info .nav-item-page {
+.main-container .nav-page-info .nav-item-page {
   font-size: 1.6rem;
   color: var(--secondary-color);
   padding: 0 5px;
 }
-.about-us-container .nav-page-info .nav-item-page:nth-child(3) {
+.main-container .nav-page-info .nav-item-page:nth-child(3) {
   color: var(--primary-color);
   font-weight: var(--font-weight-h2);
 }
 
-.about-us-container figure {
+.main-container .main-text-container figure {
   width: 100%;
   padding: 1.6rem 10px;
 }
-.about-us-container figure img {
+.main-container .main-text-container figure img {
   width: 100%;
+  box-shadow: 0px 1px 8px 0px rgb(0 0 0 / 33%);
 }
-.about-us-container .about-us-text {
+.main-container .main-text-container {
   width: 100%;
   /* padding: 0 10px; */
 }
-.about-us-container .about-us-text h2 {
+.main-container .main-text-container h2 {
   font-size: 2.8rem;
   font-weight: var(--font-weight-h1);
   margin: 1.4rem 0;
   padding: 0 10px;
   color: var(--primary-color);
 }
-.about-us-container .about-us-text  h3{
+.main-container .main-text-container  h3{
   font-size: 2.8rem;
   font-weight: 700;
   margin: 1.4rem 0;
@@ -345,7 +346,7 @@ footer .footer-container {
   color: var(--primary-color);
 }
 
-.about-us-text .about-us-contact-container {
+.main-text-container .about-us-contact-container {
   width: calc(100% - 20px);
   margin: 0 auto;
   height: auto;
@@ -369,6 +370,19 @@ footer .footer-container {
   color: var(--primary-color);
 }
 
+.information-text-container ul {
+  padding: 1.6rem 10px;
+  /* list-style: none; */
+}
+
+.information-text-container ul li {
+  font-size: 1.7rem;
+  line-height: 2.4rem;
+  padding: 8px 0 8px;
+  color: #393939;
+  border-bottom: 1px solid rgba(57,57,57,0.5);
+  
+}
 
 
 

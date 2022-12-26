@@ -8,7 +8,7 @@
       <img src="../assets/img/about-us-img-principal.jpg" alt="">
     </figure>
   </section>
-  <section class="about-us-container">
+  <section class="main-container">
     <nav class="nav-page-info">
       <router-link class="nav-item-page" to="/">Home</router-link>
       <p>></p>
