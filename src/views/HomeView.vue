@@ -4,8 +4,22 @@
 
 <template>
   <main class="main-container-home">
+    <div class="text_sliders"> 
+        <p>WELCOME TO <br> GATEWAY FABRICATION SOLUTIONS</p>
+        <p>YOUR TRUSTED SOURCE FOR QUALITY MANUFACTURED COMPONENTS</p>
+      </div>
     <section class="main-home-slider-container">
-
+      <ul>
+        <li>
+          <img src="../assets/img/slide-1.jpg" alt="" >
+        </li>
+        <li>
+          <img src="../assets/img/slide-2.jpg" alt="" >
+        </li>
+        <li>
+          <img src="../assets/img/slide-3.jpg" alt="" >
+        </li>
+      </ul>
     </section>
     <section class="main-home-introduction">
       <h1>
@@ -16,6 +30,7 @@
       </p>
     </section>
     <section class="main-home-quality">
+      
       <article class="quality-text">
         <h2>
           OUR QUALITY COMMITMENT
@@ -25,6 +40,67 @@
         </p>
       </article>
       
+      <section class="grid-quality-commitment">
+
+        <router-link to="/Metal-stamping">
+        <div class="grid-item">
+          <div class="grid-img-container">
+            <img src="../assets/img/home-metalstamping.jpg" alt="">
+          </div>
+          
+          <div class="grid-item-message">
+            <h3 class="tittle">METAL STAMPING</h3>
+            <p class="text1">We can manufacture high mix single stroke die parts to high volume progressive die parts.</p>
+            <p class="text2">Read More <span>>></span></p>
+          </div>
+        </div>
+      </router-link>
+
+      <router-link to="/tube-forming">
+        <div class="grid-item">
+          <div class="grid-img-container">
+            <img src="../assets/img/home-tube-forming.jpg" alt="">
+          </div>
+          
+          <div class="grid-item-message">
+            <h3>TUBE FORMING</h3>
+            <p>We have the highest manufacturing flexibility on tube forming and bending in the market.</p>
+            <p class="text2">Read More <span>>></span></p>
+          </div>
+        </div>
+      </router-link>
+
+      <router-link to="/machining">
+        <div class="grid-item">
+          <div class="grid-img-container">
+            <img src="../assets/img/home-machining.jpg" alt="">
+          </div>
+          
+          <div class="grid-item-message">
+            <h3>MACHINING</h3>
+            <p>We manufacture using state-of-the-art equipment and tightest dimensional needs.</p>
+            <p class="text2">Read More <span>>></span></p>
+          </div>
+        </div>
+      </router-link>
+
+      <router-link to="/plating">
+        <div class="grid-item">
+          <div class="grid-img-container">
+            <img src="../assets/img/home-pltaing.jpg" alt="">
+          </div>
+          
+          <div class="grid-item-message">
+            <h3>PLATING</h3>
+            <p>We offer competitive and environmental solutions for your surface coating challenges.</p>
+            <p class="text2">Read More <span>>></span></p>
+          </div>
+        </div>
+      </router-link>
+        
+        
+        
+      </section>
     </section>
     <section class="main-home-solutions">
       <div class="solutions-text">

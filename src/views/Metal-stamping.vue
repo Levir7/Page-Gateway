@@ -13,7 +13,7 @@
     <nav class="nav-page-info">
       <router-link class="nav-item-page" to="/">Home</router-link>
       <p>></p>
-      <router-link class="nav-item-page" to="/about">Metal Stamping</router-link>
+      <router-link class="nav-item-page" to="/Metal-stamping">Metal Stamping</router-link>
     </nav>
     <div class="main-text-container">
       <figure>

@@ -15,12 +15,13 @@
             <img src="../src/assets/img/logo-gateway-color.png" alt="">
           </a>
         </figure>
-        <div class="menu-slider-container">
+        <div id="menu-slider" class="menu-slider-container">
           <p>MENU</p>
-          <span class="menu.slide">i</span>
+          <span class="menu.slide"> </span>
         </div>
+        
       </div>
-      <div class="nav-container">
+      <div id="nav.container" class="nav-container inactive">
         <div class="phone-contact-desk">
           <span class="mexico"></span>
           <a href="tel:52-338-995-0263">338-995-0263</a>
@@ -31,7 +32,7 @@
           <router-link class="nav-item" to="/tube-forming">Tube Forming</router-link>
           <router-link class="nav-item" to="/machining">Machining</router-link>
           <router-link class="nav-item" to="/plating">Plating</router-link>
-          <router-link class="nav-item" to="/contact">Contact</router-link>
+          <!-- <router-link class="nav-item" to="/contact">Contact</router-link> -->
 
         </nav>
       </div>

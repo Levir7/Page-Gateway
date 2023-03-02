@@ -7,9 +7,9 @@ const router = createRouter({
     { path: '/', component: HomeView},
     { path: '/about', component: import('../views/AboutView.vue')},
     { path: '/Metal-stamping', component: import('../views/Metal-stamping.vue')},
-    { path: '/tube-forming', component: import('../views/AboutView.vue')},
-    { path: '/machining', component: import('../views/AboutView.vue')},
-    { path: '/contact', component: import('../views/AboutView.vue')}
+    { path: '/tube-forming', component: import('../views/Tube-forming.vue')},
+    { path: '/machining', component: import('../views/Machining.vue')},
+    { path: '/plating', component: import('../views/Plating.vue')}
   ]
 })
 
