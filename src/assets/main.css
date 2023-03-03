@@ -439,11 +439,9 @@ footer .footer-container {
   .header-container .nav-container .phone-contact-desk{
     display: none;
    }
-   .header-container .inactive {
-    display: none;
-  }
+
   .header-container .nav-container{
-    display: flex;
+    display: none;
     position: absolute;
     top: 0;
     background-color: var(--primary-color);
@@ -452,6 +450,10 @@ footer .footer-container {
     transition: all 3s;
     transform: translateY(155px);
   }
+  .header-container .active {
+    display: flex;
+   
+  }
 
    .nav-container nav{
     display: flex;
@@ -459,8 +461,8 @@ footer .footer-container {
     width: 100%;
     height: 100%;
     justify-content: space-between;
-    
    }
+
    .header-container .nav-container nav .nav-item{
     font-size: 1.4rem;
     text-align: left;

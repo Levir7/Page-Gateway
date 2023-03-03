@@ -21,7 +21,7 @@
         </div>
         
       </div>
-      <div id="nav.container" class="nav-container inactive">
+      <div id="nav.container" class="nav-container">
         <div class="phone-contact-desk">
           <span class="mexico"></span>
           <a href="tel:52-338-995-0263">338-995-0263</a>
