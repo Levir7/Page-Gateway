@@ -57,7 +57,7 @@
           P: 
           <a href="tel:52-338-995-0263">338 995 0263</a>
         </p>
-        <a class="mail-contact" href="mailto:info@gatewayfabrication.com.mx">info@gatewayfabrication.com</a>
+        <a class="mail-contact" href="mailto:info@gatewayfabrication.com.mx">info@gatewayfabrication.com.mx</a>
       </div>
       <div class="footer-iso-img-container">
         <span></span>
