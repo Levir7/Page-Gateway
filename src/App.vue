@@ -24,7 +24,7 @@
       <div id="nav.container" class="nav-container">
         <div class="phone-contact-desk">
           <span class="mexico"></span>
-          <a href="tel:52-338-995-0263">338-995-0263</a>
+          <a href="tel:52-338-995-0263">+52 338-995-0263</a>
         </div>
         <nav>
           <router-link class="nav-item" to="/about">About Us</router-link>
