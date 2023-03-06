@@ -46,7 +46,7 @@
         <ul>
           <li id="form-select-service">
             <label for="form-select" id="form-labelSelect">Service of Interest</label>
-            <select name="service " id="form-select" class="form-item">
+            <select name="service " id="form-select" class="form-item" placeholder="Service of Interest">
               <option value=""></option>
               <option value="General Inquery">General Inquery</option>
               <option value="Metal Stamping">Metal Stamping</option>
@@ -56,9 +56,10 @@
             </select>
           </li>
           <li id="form-text-Comments" >
-            <label for="comments-form" id="form-labelComments" name="Comments">Comments</label>
+            <!-- <label for="comments-form" id="form-labelComments" name="Comments">Comments</label> -->
             <textarea
               name="comments"
+              placeholder="Comments"
               class="form-item"
               id="form-comments"
               cols="30"

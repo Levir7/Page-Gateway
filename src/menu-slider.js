@@ -2,11 +2,11 @@ import { transform } from "@vue/compiler-core";
 
 const menu = document.getElementById('menu-slider');
 const menuList = document.getElementById('nav.container');
-const menuContainer = document.querySelector('.menu-container');
+// const menuContainer = document.querySelector('.menu-container');
 // const widthScreen = document.getElementById('nav.container').style.width = '630px';
 let mediaqueryList = window.matchMedia("(min-width: 630px)");
-let mediaqueryListMobile = window.matchMedia("(max-width: 629px)")
-const menuMobile = document.querySelector('.active')
+// let mediaqueryListMobile = window.matchMedia("(max-width: 629px)")
+// const menuMobile = document.querySelector('.active')
 
 menu.addEventListener('click', toggleMenu1);
 // menu.addEventListener('width' >= '630px', addClass)
