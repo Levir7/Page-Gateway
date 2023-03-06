@@ -6,9 +6,11 @@ import TubeForming from '../views/Tube-forming.vue';
 import Machining from '../views/Machining.vue';
 import Plating from '../views/Plating.vue';
 import Contact from '../views/Contact.vue';
+// import NotFound from '../'
 
 const router = createRouter({
-  history: createWebHistory('/index.html'),
+  mode: 'history',
+  history: createWebHistory(),
   routes: [
     { path: '/', component: HomeView},
     { path: '/about', component: AboutView},
@@ -16,7 +18,8 @@ const router = createRouter({
     { path: '/tube-forming', component: TubeForming},
     { path: '/machining', component: Machining},
     { path: '/plating', component: Plating},
-    { path: '/contact', component: Contact}
+    { path: '/contact', component: Contact},
+    // { path: "*", component: HomeView }
   ]
 })
 
