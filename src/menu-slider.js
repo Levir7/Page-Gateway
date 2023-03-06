@@ -59,26 +59,26 @@ textComments.addEventListener('click', labelComments);
 
 function toggleFullName (){
     if(!formItemFullName.classList.contains('formLabel')){
-        formItemFullName.classList.add('formLabel')
+        return formItemFullName.classList.add('formLabel');
     } 
 }
 function labelCompanyName (){
     if(!formCompanyName.classList.contains('formLabel')){
-        formCompanyName.classList.add('formLabel')
+        return formCompanyName.classList.add('formLabel');
     }
 }
 function labelEmailAddress (){
     if(!formEmailAddress.classList.contains('formLabel')){
-        formEmailAddress.classList.add('formLabel')
+        return formEmailAddress.classList.add('formLabel');
     }
 }
 function labelSelect(){
     if(!formSelect.classList.contains('formLabel')){
-        formSelect.classList.add('formLabel')
+        return formSelect.classList.add('formLabel');
     }
 }
 function labelComments(){
     if(!formComments.classList.contains('formLabel')){
-        formComments.classList.add('formLabel')
+        return formComments.classList.add('formLabel');
     }
 }
