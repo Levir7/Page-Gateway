@@ -25,7 +25,7 @@
       </article>
     </div>
 
-    <form action="/src/enviar.php" method="post" class="main-form-container">
+    <form action="enviar.php" method="post" class="main-form-container">
       <div id="row-form1" class="row-form form-item">
         <ul>
           <li id="form-text-FullName">
@@ -46,7 +46,7 @@
         <ul>
           <li id="form-select-service">
             <!-- <label for="form-select" id="form-labelSelect" class="labelSelectForm">Service of Interest</label> -->
-            <select name="service " id="form-select" class="form-item form-select-options" placeholder="Service of Interest" required>
+            <select name="service" id="form-select" class="form-item form-select-options" placeholder="Service of Interest" required>
               <option hidden selected>Service of Interest</option>
               <option value="General Inquery">General Inquery</option>
               <option value="Metal Stamping">Metal Stamping</option>
