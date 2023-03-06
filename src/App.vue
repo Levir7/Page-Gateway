@@ -32,7 +32,7 @@
           <router-link class="nav-item" to="/tube-forming">Tube Forming</router-link>
           <router-link class="nav-item" to="/machining">Machining</router-link>
           <router-link class="nav-item" to="/plating">Plating</router-link>
-          <!-- <router-link class="nav-item" to="/contact">Contact</router-link> -->
+          <router-link class="nav-item" to="/contact">Contact</router-link>
 
         </nav>
       </div>

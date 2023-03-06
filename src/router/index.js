@@ -5,6 +5,7 @@ import MetalStamping from '../views/Metal-stamping.vue';
 import TubeForming from '../views/Tube-forming.vue';
 import Machining from '../views/Machining.vue';
 import Plating from '../views/Plating.vue';
+import Contact from '../views/Contact.vue';
 
 const router = createRouter({
   history: createWebHistory(),
@@ -14,7 +15,8 @@ const router = createRouter({
     { path: '/Metal-stamping', component: MetalStamping},
     { path: '/tube-forming', component: TubeForming},
     { path: '/machining', component: Machining},
-    { path: '/plating', component: Plating}
+    { path: '/plating', component: Plating},
+    { path: '/contact', component: Contact}
   ]
 })
 
