@@ -402,6 +402,9 @@ p {
   resize: none;
   height: 60px;
 }
+.main-container .main-form-container .form-select-options option{
+  font-size: 1.5rem;
+}
 
 .main-container .main-form-container .form-button-container{
   display: grid;
@@ -410,6 +413,7 @@ p {
 .main-container .main-form-container .form-button-container .form-button{
   position: relative;
   display: inline-block;
+  margin-top: 10px;
 }
 
 .main-form-container .form-button-container .form-button::before {
@@ -427,7 +431,10 @@ p {
   top: 0;
   bottom: 0;
 }
-
+.main-form-container .form-button-container .submit::before{
+  content: 'Submit';
+  background-color: var(--primary-color);
+}
 .form-button input[type="file"] {
   opacity: 0;
   width: 200px;
@@ -440,7 +447,13 @@ p {
   height: 40px;
   display: inline-block;
 }
-
+.main-form-container .form-button-container{
+  position: relative;
+}
+.main-form-container .form-button-container .labelForm {
+  position: absolute;
+  top: -10px;
+}
 
 
 
