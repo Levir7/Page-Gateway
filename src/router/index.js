@@ -8,8 +8,7 @@ import Plating from '../views/Plating.vue';
 import Contact from '../views/Contact.vue';
 
 const router = createRouter({
-  mode: 'history',
-  history: createWebHistory(),
+  history: createWebHistory('/index.html'),
   routes: [
     { path: '/', component: HomeView},
     { path: '/about', component: AboutView},
