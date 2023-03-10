@@ -25,7 +25,7 @@
       </article>
     </div>
 
-    <form action="enviar.php" method="post" class="main-form-container">
+    <form action="enviar.php" method="POST" class="main-form-container">
       <div id="row-form1" class="row-form form-item">
         <ul>
           <li id="form-text-FullName">
