@@ -9,7 +9,7 @@ import Contact from '/src/views/Contact.vue';
 // import NotFound from '../'
 
 const router = createRouter({
-  mode: '',
+  mode: history,
   history: createWebHistory(),
   routes: [
     { path: '/', component: HomeView},
