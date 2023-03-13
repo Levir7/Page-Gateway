@@ -25,7 +25,7 @@
       </article>
     </div>
 
-    <form action="enviar.php" method="post" class="main-form-container">
+    <form  method="POST" action="enviar.php" class="main-form-container">
       <div id="row-form1" class="row-form form-item">
         <ul>
           <li id="form-text-FullName">
@@ -70,12 +70,12 @@
             <label for="" class="labelForm">Upload file or drawing(up to 10 files @ 100 MB each)</label>
             <li id="form-uploadFile">
               <div for="" class="form-button">
-                <input type="file" value="" id="form-button-file" name=""/>
+                <input type="file" value="" id="form-button-file" name="fileUploaded"/>
               </div>
             </li>
             <li id="form-submitForm">           
               <div class="form-button submit">
-                <input type="submit" value="Submit Form" id="form-button-submit"/>
+                <input type="submit" value="Submit Form" id="form-button-submit" name="btnsubmit"/>
               </div>     
             </li>
           </div>

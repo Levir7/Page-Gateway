@@ -1,15 +1,15 @@
 import { createRouter, createWebHistory } from "vue-router";
-import HomeView from '../views/HomeView.vue';
-import AboutView from '../views/AboutView.vue';
-import MetalStamping from '../views/Metal-stamping.vue';
-import TubeForming from '../views/Tube-forming.vue';
-import Machining from '../views/Machining.vue';
-import Plating from '../views/Plating.vue';
-import Contact from '../views/Contact.vue';
+import HomeView from '/src/views/HomeView.vue';
+import AboutView from '/src/views/AboutView.vue';
+import MetalStamping from '/src/views/Metal-stamping.vue';
+import TubeForming from '/src/views/Tube-forming.vue';
+import Machining from '/src/views/Machining.vue';
+import Plating from '/src/views/Plating.vue';
+import Contact from '/src/views/Contact.vue';
 // import NotFound from '../'
 
 const router = createRouter({
-  mode: 'history',
+  mode: history,
   history: createWebHistory(),
   routes: [
     { path: '/', component: HomeView},
